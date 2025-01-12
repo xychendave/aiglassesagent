@@ -8,6 +8,9 @@ A web-based platform for AI-powered smart glasses applications, featuring real-t
 
 [English](#english) | [中文](#chinese)
 
+website: https://www.chat4edu.com/
+![Home Image](img/home.png)
+
 <a name="english"></a>
 ## Overview
 AI Glasses Agent is an innovative open-source project that combines cutting-edge AI technology with smart glasses hardware to create practical, everyday applications. Our platform provides a suite of AI-powered features designed to enhance accessibility, education, and health monitoring.
