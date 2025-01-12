@@ -21,9 +21,9 @@ const ToastViewport = React.forwardRef<
 ToastViewport.displayName = ToastPrimitives.Viewport.displayName
 
 export interface ToastProps extends React.ComponentPropsWithoutRef<typeof ToastPrimitives.Root> {
-  title?: React.ReactNode
-  description?: React.ReactNode
-  action?: ToastActionElement
+  title?: string | undefined; // 修改为 string | undefined 类型
+  description?: React.ReactNode;
+  action?: ToastActionElement;
 }
 
 export type ToastActionElement = React.ReactElement<typeof ToastPrimitives.Action>
