@@ -8,7 +8,7 @@ A web-based platform for AI-powered smart glasses applications, featuring real-t
 
 [English](#english) | [中文](#chinese)
 
-website: https://www.chat4edu.com/
+website: www.aiglasses.fun  
 ![Home Image](img/home.png)
 
 <a name="english"></a>
