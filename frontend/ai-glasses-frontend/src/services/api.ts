@@ -1,3 +1,13 @@
+interface TranslationData {
+  image_url: string
+  source_language?: string
+  target_language: string
+  coordinates?: {
+    x: number
+    y: number
+  }
+}
+
 const API_URL = import.meta.env.VITE_API_URL;
 
 export const api = {
@@ -6,7 +16,7 @@ export const api = {
     return response.json();
   },
   
-  translate: async (data) => {
+  translate: async (data: TranslationData) => {
     const response = await fetch(`${API_URL}/api/translate`, {
       method: 'POST',
       headers: {
